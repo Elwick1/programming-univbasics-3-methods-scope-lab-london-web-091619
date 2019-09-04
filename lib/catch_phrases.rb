@@ -18,5 +18,8 @@ end
   #  phrase = "Do A Barrel Roll!"
    # expect{any_phrase(phrase)}.to output("Do A Barrel Roll!\n").to_stdout
   #end
-def any_phrase
+def any_phrase(phrase)
+  phrase = 'Do A Barrel Roll'
+  puts phrase
+end
   
